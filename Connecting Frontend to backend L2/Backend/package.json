@@ -1,0 +1,22 @@
+{
+  "name": "backendconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start":"node practice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "backdendDev"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Amit Kumar HOta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
