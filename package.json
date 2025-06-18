@@ -1,0 +1,19 @@
+{
+  "name": "backend-xnix",
+  "version": "1.0.0",
+  "description": "a basic app to deplot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "amit",
+    "node"
+  ],
+  "author": "Amit Kumar HOta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
