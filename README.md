@@ -1,6 +1,7 @@
 # Backend Xnix
 
-A simple backend server built using **Node.js** and **Express** to serve a list of jokes through a REST API.
+A simple backend server built using **mongoose** and **Express** to create data models for Ecommerce and a Hospital managment system.
+
 
 ## 🚀 Features
 
