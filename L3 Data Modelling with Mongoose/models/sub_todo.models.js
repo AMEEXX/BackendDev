@@ -1,23 +1,12 @@
-import mongooes from "mongooes"
+import mongoose from "mongoose";
 
-const sub_todoSchema = new mongooes.Schema({
-    content : {
-        required : true,
-        type : String,
-
+const subTodoSchmea = new mongoose.Schema(
+  {
+    content: {
+      type: String,
     },
-    complete : {
-        type : Boolean,
-        default: false
+  },
+  { timestamps : true }
+);
 
-    },
-    createdBy : {
-        type : mongooes.Schema.Types.ObjectId,
-        ref : "User"
-    }
-    
-},
-{timestamps:true})
-
-
-export const sub_todo = mongooes.model("Sub_Todo",sub_todoSchema)
+export const SubTodo = mongoose.model("Subtodo", subTodoSchmea);
