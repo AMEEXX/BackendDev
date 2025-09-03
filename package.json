@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a basic app to deplot",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -15,5 +16,8 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
