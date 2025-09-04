@@ -4,7 +4,13 @@ const subTodoSchmea = new mongoose.Schema(
   {
     content: {
       type: String,
+      required : true,
+
     },
+    parenttodo : {
+      type : mongoose.Schema.Types.ObjectId,
+      ref : "Todo"
+    }
   },
   { timestamps : true }
 );
